@@ -4,8 +4,9 @@ import SocialMedia from "../../components/socialMedia/SocialMedia";
 import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
-import FeelingProud from "./FeelingProud";
 import { style } from "glamor";
+import Avatar from "../apresentationImages/Avatar";
+import RandCandles from "../apresentationImages/RandCandles";
 
 export default function Greeting(props) {
   const theme = props.theme;
@@ -29,7 +30,7 @@ export default function Greeting(props) {
                 className="greeting-text-p subTitle"
                 style={{ color: theme.secondaryText }}
               >
-                <span>I'm </span>
+                <span>Sou </span>
                 <span style={{ color: theme.accentColor }}>
                   {greeting.full_name}.{" "}
                 </span>
@@ -50,7 +51,8 @@ export default function Greeting(props) {
             </div>
           </div>
           <div className="greeting-image-div">
-            <FeelingProud theme={theme} />
+            <Avatar />
+            <RandCandles />
           </div>
         </div>
       </div>
