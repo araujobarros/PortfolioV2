@@ -68,9 +68,8 @@ function Header(props) {
         <header className="header">
           <NavLink to={link} tag={Link} className="logo">
             <span style={{ color: theme.text }}></span>
-            <span className="logo-name" style={{ color: theme.text }}>
-              {greeting.logo_name}
-            </span>
+            <span className="logo-name a">{greeting.logo_name_a}</span>
+            <span className="logo-name c">{greeting.logo_name_c}</span>
             <span style={{ color: theme.text }}></span>
           </NavLink>
           <input className="menu-btn" type="checkbox" id="menu-btn" />

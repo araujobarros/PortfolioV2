@@ -1,4 +1,16 @@
 @font-face {
+  font-family: "Gloria Hallelujah";
+  src: local("Gloria Hallelujah"),
+    url("./assests/fonts/GloriaHallelujah-Regular.ttf") format("woff");
+}
+
+@font-face {
+  font-family: "Indie Flower";
+  src: local("Indie Flower"),
+    url("./assests/fonts/IndieFlower-Regular.ttf") format("woff");
+}
+
+@font-face {
   font-family: "Agustina Regular";
   font-style: normal;
   font-weight: normal;
@@ -62,11 +74,11 @@ body {
   background: #292a2d;
 }
 ::-webkit-scrollbar-thumb {
-  background: #E3405F;
+  background: #00a59d;
   border-radius: 5px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #E3405F;
+  background: #00a59d;
 }
 /* Media Query */
 @media (max-width: 1380px) {

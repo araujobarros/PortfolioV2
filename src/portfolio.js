@@ -3,7 +3,7 @@
 // Website related settings
 const settings = {
   isSplash: true, // Change this to true if you want to use the splash screen.
-  useCustomCursor: true, // Change this to false if you want the good'ol cursor
+  useCustomCursor: false, // Change this to false if you want the good'ol cursor
   googleTrackingID: "UA-174238252-2",
 };
 
@@ -11,7 +11,9 @@ const settings = {
 const greeting = {
   title: "Saudações!",
   title2: "Araujo.Barros",
-  logo_name: "Edson.A()",
+  logo_name_a: "{dson",
+  logo_name_b: "(Araujo) => {dso",
+  logo_name_c: "}",
   nickname: "harry / picleric",
   full_name: "Edson Araujo de Barros Junior",
   subTitle:
@@ -23,13 +25,13 @@ const greeting = {
 
 const socialMediaLinks = {
   /* Your Social Media Link */
-  github: "https://github.com/harikanani",
-  linkedin: "https://www.linkedin.com/in/harikrushn-kanani/",
-  gmail: "hkanani191@gmail.com",
-  gitlab: "https://gitlab.com/harikanani",
-  facebook: "https://www.facebook.com/harikrishan.kanani/",
-  twitter: "https://twitter.com/Harikrushn9",
-  instagram: "https://www.instagram.com/kanani_025/",
+  github: "https://github.com/araujobarros",
+  linkedin: "https://www.linkedin.com/in/araujo-barros/",
+  gmail: "araujo.barros@matematica.ufrj.br",
+  gitlab: "",
+  facebook: "",
+  twitter: "",
+  instagram: "",
 };
 
 const skills = {
@@ -798,6 +800,29 @@ const projects = {
     },
   ],
 };
+
+const references = [
+  {
+    id: 0,
+    name: "Portfolio template",
+    url: "https://github.com/harikanani/PortfolioV2",
+  },
+  {
+    id: 1,
+    name: "Hexagon Tutorial",
+    url: "https://jtauber.github.io/articles/css-hexagon.html",
+  },
+  {
+    id: 2,
+    name: "Avatar",
+    url: "https://getavataaars.com/",
+  },
+  {
+    id: 3,
+    name: "Animations",
+    url: "https://www.imaginarycloud.com/blog/how-to-make-css-animations/",
+  },
+];
 
 const candles = ["candle.png", "candle2.png", "candleR.png", "candle2R.png"];
 

@@ -46,12 +46,10 @@ export default function RandCandles() {
         } else {
           listPositions.push(listPositions[index - 1] + 5);
         }
+      } else if (listPositions[index - 1] < 85) {
+        listPositions.push(listPositions[index - 1] + 5);
       } else {
-        if (listPositions[index - 1] < 85) {
-          listPositions.push(listPositions[index - 1] + 5);
-        } else {
-          listPositions.push(listPositions[index - 1] - 5);
-        }
+        listPositions.push(listPositions[index - 1] - 5);
       }
     }
     return listPositions;
@@ -61,30 +59,27 @@ export default function RandCandles() {
     if (clock && listCandles) {
       return (
         <div className="candles">
-          {listCandles.map((element, index) => {
-            return (
-              <img
-                src={require(`../../assests/images/${element}`)}
-                alt="candle"
-                style={{
-                  position: "absolute",
-                  "justify-self": "normal",
-                  "z-index": "1",
-                  bottom: `${listPositions[index]}%`,
-                  left: `${index * 5}%`,
-                  animation: `visibleOne ${3}s linear ${0.1 * index}s`,
-                  "animation-direction": "normal",
-                  "animation-iteration-count": "1",
-                  "animation-fill-mode": "both",
-                }}
-              />
-            );
-          })}
+          {listCandles.map((element, index) => (
+            <img
+              src={require(`../../assests/images/${element}`)}
+              alt="candle"
+              style={{
+                position: "absolute",
+                "justify-self": "normal",
+                "z-index": "1",
+                bottom: `${listPositions[index]}%`,
+                left: `${index * 5}%`,
+                animation: `visibleOne ${3}s linear ${0.1 * index}s`,
+                "animation-direction": "normal",
+                "animation-iteration-count": "1",
+                "animation-fill-mode": "both",
+              }}
+            />
+          ))}
         </div>
       );
-    } else {
-      return <div></div>;
     }
+    return <div />;
   };
   return renderCandles();
 }

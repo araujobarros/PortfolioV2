@@ -4,17 +4,22 @@ import { socialMediaLinks } from "../../portfolio";
 
 export default function socialMedia() {
   return (
-    <div className="social-media-div">
-      <a
-        href={socialMediaLinks.github}
-        className="icon-button github"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-github"></i>
-        <span></span>
-      </a>
-      <a
+    <div className="social-media-container">
+      <div className="social-media-div">
+        <a
+          href={socialMediaLinks.github}
+          className="icon-button github hex "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {" "}
+          <div className="top"></div>
+          <div className="middle">
+            <i className="fab fa-github"></i>
+          </div>
+          <div className="bottom"></div>
+        </a>
+        {/* <a
         href={socialMediaLinks.gitlab}
         className="icon-button gitlab"
         target="_blank"
@@ -22,26 +27,34 @@ export default function socialMedia() {
       >
         <i className="fab fa-gitlab"></i>
         <span></span>
-      </a>
-      <a
-        href={socialMediaLinks.linkedin}
-        className="icon-button linkedin"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-linkedin-in"></i>
-        <span></span>
-      </a>
-      <a
-        href={`mailto:${socialMediaLinks.gmail}`}
-        className="icon-button google"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-google"></i>
-        <span></span>
-      </a>
-      <a
+      </a> */}
+        <a
+          href={socialMediaLinks.linkedin}
+          className="icon-button linkedin hex "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="top"></div>
+          <div className="middle">
+            <i className="fab fa-linkedin-in"></i>
+          </div>
+          <div className="bottom"></div>
+
+          <span></span>
+        </a>
+        <a
+          href={`mailto:${socialMediaLinks.gmail}`}
+          className="icon-button google hex "
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <div className="top"></div>
+          <div className="middle">
+            <i className="fab fa-google"></i>
+          </div>
+          <div className="bottom"></div>
+        </a>
+        {/* <a
         href={socialMediaLinks.twitter}
         className="icon-button twitter"
         target="_blank"
@@ -58,7 +71,8 @@ export default function socialMedia() {
       >
         <i className="fab fa-instagram"></i>
         <span></span>
-      </a>
+      </a> */}
+      </div>
     </div>
   );
 }

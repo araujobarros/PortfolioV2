@@ -1,15 +1,16 @@
+/* eslint-disable react/jsx-filename-extension */
 import React from "react";
 import "./Greeting.css";
-import SocialMedia from "../../components/socialMedia/SocialMedia";
-import { greeting } from "../../portfolio";
 import { Fade } from "react-reveal";
 import { useHistory } from "react-router-dom";
 import { style } from "glamor";
+import { greeting } from "../../portfolio";
+import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Avatar from "../apresentationImages/Avatar";
 import RandCandles from "../apresentationImages/RandCandles";
 
 export default function Greeting(props) {
-  const theme = props.theme;
+  const { theme } = props;
   const history = useHistory();
 
   const styles = style({

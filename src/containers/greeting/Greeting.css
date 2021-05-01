@@ -1,3 +1,10 @@
+.portfolio-repo-btn-div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
 .greeting-image-div {
   position: relative;
   display: flex;
@@ -111,12 +118,5 @@
   }
   .greeting-main {
     display: block;
-  }
-
-  .portfolio-repo-btn-div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    text-align: center;
   }
 }

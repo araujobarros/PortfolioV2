@@ -1,5 +1,30 @@
 /* header */
 
+.header .logo {
+  display: block;
+  float: left;
+  font-size: 1.5em;
+  text-decoration: none;
+  margin-top: -12px;
+  line-height: normal;
+}
+
+.header .logo-name {
+  font-family: "Indie Flower";
+  font-weight: bold;
+  padding: 0;
+  letter-spacing: 3px;
+  font-size: x-large;
+}
+
+.header .a {
+  color: #00a59d;
+}
+
+.header .c {
+  color: #fc1056;
+}
+
 .header {
   display: block;
   max-width: 90%;
@@ -23,23 +48,6 @@
   padding: 10px 20px;
   /* color: black; */
   text-decoration: none;
-}
-
-.header .logo {
-  display: block;
-  float: left;
-  font-size: 1.5em;
-  text-decoration: none;
-  margin-top: -12px;
-  line-height: normal;
-}
-
-.header .logo-name {
-  font-family: "Google Sans Regular";
-  font-weight: bold;
-  padding: 0 10px;
-  letter-spacing: 3px;
-  /* color: #55198b; */
 }
 
 /* menu */
