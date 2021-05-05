@@ -8,7 +8,7 @@ export default function socialMedia() {
       <div className="social-media-div">
         <a
           href={socialMediaLinks.github}
-          className="icon-button github hex "
+          className="github hex "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -19,18 +19,9 @@ export default function socialMedia() {
           </div>
           <div className="bottom"></div>
         </a>
-        {/* <a
-        href={socialMediaLinks.gitlab}
-        className="icon-button gitlab"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-gitlab"></i>
-        <span></span>
-      </a> */}
         <a
           href={socialMediaLinks.linkedin}
-          className="icon-button linkedin hex "
+          className="linkedin hex "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -44,7 +35,7 @@ export default function socialMedia() {
         </a>
         <a
           href={`mailto:${socialMediaLinks.gmail}`}
-          className="icon-button google hex "
+          className="google hex "
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -54,24 +45,6 @@ export default function socialMedia() {
           </div>
           <div className="bottom"></div>
         </a>
-        {/* <a
-        href={socialMediaLinks.twitter}
-        className="icon-button twitter"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-twitter"></i>
-        <span></span>
-      </a>
-      <a
-        href={socialMediaLinks.instagram}
-        className="icon-button instagram"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <i className="fab fa-instagram"></i>
-        <span></span>
-      </a> */}
       </div>
     </div>
   );

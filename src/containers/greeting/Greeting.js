@@ -46,7 +46,7 @@ export default function Greeting(props) {
                     history.push("/contact");
                   }}
                 >
-                  Contact Me
+                  Contato
                 </button>
               </div>
             </div>
