@@ -40,11 +40,11 @@ const skills = {
       title: "Desenvolvimento Full Stack",
       fileName: "FullStackImg",
       skills: [
-        " ✔️ Desenvolvimento de interfaces interativas e criativas para aplicações web.",
-        " ✔️ Domínio na tecnologia React, em conjunto com Redux e Context API.",
-        " ✔️ Criação de sites responsivos com ferramentas como Bulma e Bootstrap.",
-        " ✔️ Vasta experiência com Git, GitHub e metodologias ágeis.",
-        " ✔️ Habituado com metodologia ativa de ensino o que possibilita facilidade na aprenizagem de novas tecnologias.",
+        " Desenvolvimento de interfaces interativas e criativas para aplicações web.",
+        " Domínio na tecnologia React, em conjunto com Redux e Context API.",
+        " Criação de sites responsivos com ferramentas como Bulma e Bootstrap.",
+        " Experiência com Git, GitHub e metodologias ágeis.",
+        " Habituado com metodologia ativa de ensino, o que possibilita facilidade na aprenizagem de novas tecnologias.",
         // " ✔️ Creating application backend in Node, Express & Flask",
       ],
       softwareSkills: [

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./Header.css";
 import { Fade } from "react-reveal";
 import { NavLink, Link } from "react-router-dom";
@@ -34,6 +34,17 @@ function Header(props) {
   const link = settings.isSplash ? "/splash" : "home";
 
   const [currTheme, setCurrTheme] = useState(props.theme);
+  const [backGroundHeader, setBackGroundHeader] = useState("transparent");
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.pageYOffset > 50) {
+        setBackGroundHeader("not-transparent");
+      } else {
+        setBackGroundHeader("transparent");
+      }
+    });
+  }, []);
 
   function changeTheme() {
     if (currTheme === "light") {
@@ -63,82 +74,87 @@ function Header(props) {
     );
 
   return (
-    <Fade top duration={1000} distance="20px">
-      <div>
-        <header className="header">
-          <NavLink to={link} tag={Link} className="logo">
-            <span style={{ color: theme.text }}></span>
-            <span className="logo-name a">{greeting.logo_name_a}</span>
-            <span className="logo-name c">{greeting.logo_name_c}</span>
-            <span style={{ color: theme.text }}></span>
-          </NavLink>
-          <input className="menu-btn" type="checkbox" id="menu-btn" />
-          <label className="menu-icon" htmlFor="menu-btn">
-            <span className="navicon"></span>
-          </label>
-          <ul className="menu">
-            <li>
-              <NavLink
-                className="homei"
-                to="/home"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Home
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="ec"
-                to="/education"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Formação
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="xp"
-                to="/experience"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Experiência
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="projects"
-                to="/projects"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Projetos
-              </NavLink>
-            </li>
-            <li>
-              <NavLink
-                className="cr"
-                to="/contact"
-                tag={Link}
-                activeStyle={{ fontWeight: "bold" }}
-                style={{ borderRadius: 5, color: theme.text }}
-              >
-                Contato
-              </NavLink>
-            </li>
-            <button {...styles} onClick={changeTheme}>
-              {icon}
-            </button>
-          </ul>
-        </header>
-      </div>
-    </Fade>
+    <div className={`header-container ${backGroundHeader}`}>
+      {/* <Fade top duration={1000} distance="20px"> */}
+      <header className="header">
+        <NavLink to={link} tag={Link} className="logo">
+          <span style={{ color: theme.text }}></span>
+          <span className="logo-name a">{greeting.logo_name_a}</span>
+          <span className="logo-name c">{greeting.logo_name_c}</span>
+          <span style={{ color: theme.text }}></span>
+        </NavLink>
+        <input
+          className="menu-btn"
+          type="checkbox"
+          id="menu-btn"
+          onClick={() => setBackGroundHeader("not-transparent")}
+        />
+        <label className="menu-icon" htmlFor="menu-btn">
+          <span className="navicon"></span>
+        </label>
+        <ul className="menu">
+          <li>
+            <NavLink
+              className="homei"
+              to="/home"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.secondaryText }}
+            >
+              Home
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="ec"
+              to="/education"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.secondaryText }}
+            >
+              Formação
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="xp"
+              to="/experience"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.secondaryText }}
+            >
+              Experiência
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="projects"
+              to="/projects"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.secondaryText }}
+            >
+              Projetos
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              className="cr"
+              to="/contact"
+              tag={Link}
+              activeStyle={{ fontWeight: "bold" }}
+              style={{ borderRadius: 5, color: theme.secondaryText }}
+            >
+              Contato
+            </NavLink>
+          </li>
+          <button {...styles} onClick={changeTheme}>
+            {icon}
+          </button>
+        </ul>
+      </header>
+      {/* </Fade> */}
+    </div>
   );
 }
 

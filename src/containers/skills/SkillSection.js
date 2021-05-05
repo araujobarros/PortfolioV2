@@ -46,6 +46,15 @@ function SkillSection(props) {
                           className="subTitle skills-text"
                           style={{ color: theme.secondaryText }}
                         >
+                          <span
+                            className="tick"
+                            style={{
+                              color: theme.accentBright,
+                              fontSize: "25px",
+                            }}
+                          >
+                            ✔
+                          </span>
                           {skillSentence}
                         </p>
                       );

@@ -1,6 +1,8 @@
 import React from "react";
+import { themes } from "../../theme";
 
-function FullStackImg() {
+function FullStackImg(props) {
+  const theme = props.theme;
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -420,7 +422,10 @@ function FullStackImg() {
         d="M208.32 580.19v46.88a14.8 14.8 0 0014.8 14.8h660.32a14.8 14.8 0 0014.8-14.8v-46.88z"
         transform="translate(-88.65 -57.09)"
       ></path>
-      <path fill="#fff" d="M145.064 135.627H781.294V495.437H145.064z"></path>
+      <path
+        fill={theme.body}
+        d="M145.064 135.627H781.294V495.437H145.064z"
+      ></path>
       <path
         fill="#00a59d"
         d="M556.71 624.08a15.4 15.4 0 0012.13-5.89 16.06 16.06 0 001.2-1.76l-8.47-1.43 9.15.06a15.42 15.42 0 00.29-12.21l-12.27 6.36 11.32-8.32a15.42 15.42 0 10-25.47 17.26 15.4 15.4 0 0012.12 5.93z"

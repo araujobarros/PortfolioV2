@@ -5,15 +5,36 @@
   text-align: center;
 }
 
+.greet-main {
+  max-width: 1440px;
+  padding: 10px 10px;
+  margin: 0px auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
+}
+
 .greeting-image-div {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 50px;
+}
+
+.greeting-text-div {
+  margin: 50px;
+}
+
+.greeting-text {
+  margin-top: 110px;
+  font-size: 70px;
+  line-height: 5px;
+  font-family: "Google Sans Bold";
 }
 
 .greeting-image-div > .avatar {
-  max-width: 80%;
+  max-width: 70%;
 }
 
 .main {
@@ -21,14 +42,6 @@
   padding: 0px 10px;
   margin: 0px auto;
   margin-top: 4rem;
-}
-
-.greet-main {
-  max-width: 1370px;
-  padding: 10px 10px;
-  margin: 0px auto;
-  margin-top: 2rem;
-  display: block;
 }
 
 .greeting-main {
@@ -44,13 +57,6 @@
 .button-greeting-div {
   display: flex;
   margin-top: 20px;
-}
-
-.greeting-text {
-  margin-top: 110px;
-  font-size: 70px;
-  line-height: 5px;
-  font-family: "Google Sans Bold";
 }
 
 .greeting-nickname {
@@ -98,12 +104,20 @@
   }
 }
 @media (max-width: 768px) {
+  .greeting-image-div {
+    margin: 10px;
+  }
+
+  .greeting-text-div {
+    margin: 10px;
+  }
+
   .button-greeting-div {
     justify-content: space-around;
   }
   .greeting-text {
     font-size: 30px;
-    margin-top: 0px;
+    margin-top: 30px;
     text-align: center;
   }
   .greeting-nickname {
