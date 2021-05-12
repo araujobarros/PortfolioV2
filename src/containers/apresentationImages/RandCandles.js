@@ -31,7 +31,7 @@ export default function RandCandles() {
   const randomizeCandles = () => {
     const listCandles = [];
     for (let index = 0; index < 20; index++) {
-      listCandles.push(candles[Math.round(Math.random() * 3.98 - 0.49)]);
+      listCandles.push(candles[Math.round(Math.random() * 11.98 - 0.49)]);
     }
     return listCandles;
   };

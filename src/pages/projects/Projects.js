@@ -7,6 +7,7 @@ import { projectsHeader, projects } from "../../portfolio.js";
 import "./Projects.css";
 import ProjectsImg from "./ProjectsImg";
 import { style } from "glamor";
+import ExperienceAccordion from "../../containers/experienceAccordion/ExperienceAccordion";
 
 function Projects(props) {
   const theme = props.theme;
@@ -45,9 +46,9 @@ function Projects(props) {
         </Fade>
       </div>
       <div className="repo-cards-div-main">
-        {projects.data.map((repo) => {
+        {/* {projects.data.map((repo) => {
           return <ProjectCard repo={repo} theme={theme} />;
-        })}
+        })} */}
       </div>
       <br />
       <br />

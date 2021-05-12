@@ -10,15 +10,15 @@ function DegreeCard(props) {
   const style_img = style({
     width: "220px",
     height: "auto",
-    borderRadius: " 50%",
+    borderRadius: " 5%",
     padding: "10px",
-    border: `1px solid ${theme.accentColor}`,
+    border: `1px solid ${theme.accentBright}`,
     marginRight: "50px",
-    boxShadow: `0px 0px 5px ${theme.accentColor}`,
+    boxShadow: `0px 0px 5px ${theme.accentBright}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
     "@media (max-width: 768px)": {
       marginLeft: "50px",
@@ -28,17 +28,17 @@ function DegreeCard(props) {
   });
 
   const card_body = style({
-    borderBottom: `1px solid ${theme.accentColor}`,
-    borderLeft: `1px solid ${theme.accentColor}`,
-    borderRight: `1px solid ${theme.accentColor}`,
+    borderBottom: `1px solid ${theme.accentBright}`,
+    borderLeft: `1px solid ${theme.accentBright}`,
+    borderRight: `1px solid ${theme.accentBright}`,
     borderRadius: "7px",
     width: "90%",
     margin: "10px",
-    boxShadow: `0px 1px 5px ${theme.accentColor}`,
+    boxShadow: `0px 1px 5px ${theme.accentBright}`,
     transition: "all 0.2s ease-in-out",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 15px ${theme.accentColor}`,
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
     "@media (max-width: 768px)": {
       width: "100%",
@@ -48,7 +48,7 @@ function DegreeCard(props) {
   const button_visit = style({
     textDecoration: "none",
     color: "rgba(255, 255, 255, 1)",
-    background: `${theme.accentColor}`,
+    background: `${theme.accentBright}`,
     padding: "15px 15px",
     marginTop: "25px",
     borderRadius: "4px",
@@ -63,7 +63,7 @@ function DegreeCard(props) {
     cursor: "pointer",
     ":hover": {
       color: "rgba(255, 255, 255, 1)",
-      boxShadow: `0 5px 10px ${theme.accentColor}`,
+      boxShadow: `0 5px 10px ${theme.accentBright}`,
     },
   });
 
@@ -86,7 +86,7 @@ function DegreeCard(props) {
         <div {...card_body}>
           <div
             className="body-header"
-            style={{ backgroundColor: theme.accentColor }}
+            style={{ backgroundColor: theme.accentBright }}
           >
             <div className="body-header-title">
               <h2 className="card-title" style={{ color: "#FFFFFF" }}>
@@ -103,11 +103,22 @@ function DegreeCard(props) {
             </div>
           </div>
           <div classname="body-content">
-            {degree.descriptions.map((sentence) => {
+            {degree.descriptions.map((sentence, index) => {
               return (
-                <p className="content-list" style={{ color: theme.text }}>
-                  {sentence}
-                </p>
+                <div>
+                  <p className="content-list" style={{ color: theme.text }}>
+                    <div
+                      className={`tick ${index === 2 ? "charge" : ""}`}
+                      style={{
+                        color: theme.accentBright,
+                        fontSize: "25px",
+                      }}
+                    >
+                      {index < 2 ? "✔" : index === 2 ? "◌" : "❏"}
+                    </div>
+                    {sentence}
+                  </p>
+                </div>
               );
             })}
             <a
@@ -122,10 +133,10 @@ function DegreeCard(props) {
                   marginRight: "23px",
                   textDecoration: "none",
                   float: "right",
-                  backgroundColor: theme.accentColor,
+                  backgroundColor: theme.accentBright,
                 }}
               >
-                Visit Website
+                Conheça a Trybe
               </p>
             </a>
           </div>

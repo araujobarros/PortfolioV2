@@ -40,7 +40,7 @@ const skills = {
       title: "Desenvolvimento Full Stack",
       fileName: "FullStackImg",
       skills: [
-        " Desenvolvimento de interfaces interativas e criativas para aplicações web.",
+        " Desenvolvimento de interfaces interativas e criativas para aplicações WEB.",
         " Domínio na tecnologia React, em conjunto com Redux e Context API.",
         " Criação de sites responsivos com ferramentas como Bulma e Bootstrap.",
         " Experiência com Git, GitHub e metodologias ágeis.",
@@ -278,17 +278,18 @@ const skills = {
 const degrees = {
   degrees: [
     {
-      title: "Dr. S. & S. S. Ghandhy College Of Engineering & Technology",
-      subtitle: "Diploma in Information Technology",
-      logo_path: "ssgandhy.png",
-      alt_name: "SETI",
-      duration: "2018 - Present",
+      title: "Trybe",
+      subtitle: "Formação em Desenvolvimento Web",
+      logo_path: "Trybe-I.png",
+      alt_name: "Trybe",
+      duration: "set-2020",
       descriptions: [
-        " ✔️ I have studied core subjects like Data Structures, DBMS, Networking, Security, etc.",
-        " ✔️ I have also completed various online courses for Backend , Web , Mobile App Development, etc.",
-        " ✔️ I have implemented several projects based on what I've leart under my Computer Engineering course. ",
+        "No módulo de Fundamentos do desenvolvimento Web foi abordado tópicos como HTML, CSS, JS, Git, e Unix & Bash",
+        "Em Desenvolvimento Front-end os tópicos anteriores foram melhor desenvolvidos além da implementação do React com manipulação do  estado nos componentes e globalmente usando ferramentas como Redux,ContextAPI e React Hooks, e bibliotecas RTL para testar componentes síncronos e assíncronos.",
+        "Atualmente com desenvolvimento Back-end está sendo abordado Banco de dados, Rest, Server-side, Autenticação, Segurança e Deploy ",
+        "Em Introdução à Ciência da Computação serão aborados Algoritmos, Estrutura de dados, Paradigmas de Programação, Python e Arquitetura de Computadores  ",
       ],
-      website_link: "http://www.ssgc.cteguj.in/",
+      website_link: "https://www.betrybe.com/",
     },
   ],
 };
@@ -296,189 +297,159 @@ const degrees = {
 const certifications = {
   certifications: [
     {
-      title: "M0001: MongoDB Basics",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
+      title: "Introdução a Segurança Cibernética",
+      subtitle: "CISCO",
+      logo_path: "I2CS__1_.png",
       certificate_link:
-        "https://drive.google.com/file/d/12se6bMep48WXA1PlizTBAgCnW0GXM6wq/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#2AAFED",
-      color_code: "#47A048",
+        "https://www.credly.com/badges/9c9474a0-2cd1-49ca-bee1-650905cac36e/linked_in",
+      alt_name: "CyberSecurity CISCO",
     },
     {
-      title: "Hackathon",
-      subtitle: "Hack The Mountains",
-      logo_path: "hackathon1.svg",
+      title: "Learn-A-Thon",
+      subtitle: "CISCO",
+      logo_path: "learnathon.png",
       certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "hackathon",
-      color_code: "#E2405F",
+        "https://www.credly.com/badges/14c7055b-b765-4c9a-9cb2-9be8aa0eea08/linked_in",
+      alt_name: "Learn-A-Thon",
     },
     {
-      title: "A300: Atlas Security",
-      subtitle: "MongoDB University",
-      logo_path: "mongo.png",
-      certificate_link:
-        "https://drive.google.com/file/d/12u_tkvhgB-K2TIm-RDdJOwYbQ9ccqiqA/view?usp=sharing",
-      alt_name: "MongoDB University",
-      // color_code: "#F6B808",
-      color_code: "#47A048",
+      title: "Programação de dispositivos móveis",
+      subtitle: "UFRN",
+      logo_path: "brasaoUFRN.png",
+      certificate_link: "http://www.sigaa.ufrn.br/documentos/",
+      alt_name: "Brasão UFRN",
     },
     {
-      title: "Cyber Security & Cyber Forensics",
-      subtitle: "Workshop at IIT Bombay",
-      logo_path: "iit.png",
+      title: "Derivativos Financeiros",
+      subtitle: "Unicesumar",
+      logo_path: "unicesumar.png",
       certificate_link:
-        "https://drive.google.com/file/d/12uAdjQC5LfrB1ODdxqIY181ugyyQhl-I/view?usp=sharing",
-      alt_name: "Workshop",
-      color_code: "#2AAFED",
+        "https://producao.caf.ufv.br/pronatec/scripts/validacaoCertificadoNC.php",
+      alt_name: "UFV",
     },
     {
-      title: "MLH Local Hack Day: Build",
-      subtitle: "Major League Hacking",
-      logo_path: "mlh-logo.svg",
-      certificate_link:
-        "https://drive.google.com/file/d/1ws7g2Oepu76vDFir6SvR_emFAMSkB2ZQ/view?usp=sharing",
-      alt_name: "Google",
-      color_code: "#fe0037",
+      title: "Matematica Financeira",
+      subtitle: "Fundação bradesco",
+      logo_path: "fundacao-bradesco.png",
+      certificate_link: "https://www.ev.org.br/",
+      alt_name: "Fundação Bradesco",
     },
     {
-      title: "Hack20",
-      subtitle: "Flutter Internation Hackathon",
-      logo_path: "flutter.png",
+      title: "MEI",
+      subtitle: "UFV",
+      logo_path: "brasaoUfV.gif",
       certificate_link:
         "https://drive.google.com/file/d/1JTd8pVlHbP0RVQYtfa4OZgJYGfdiCwM6/view?usp=sharing",
       alt_name: "Flutter Internation Hackathon",
       color_code: "#2AAFED",
     },
-    {
-      title: "Postman Student Expert",
-      subtitle: "Postman",
-      logo_path: "postman.png",
-      certificate_link:
-        "https://badgr.com/public/assertions/h2qevHs4SlyoHErJQ0mn2g",
-      alt_name: "Postman",
-      // color_code: "#f36c3d",
-      color_code: "#fffbf3",
-    },
-    // color_code: "#8C151599",
-    // color_code: "#7A7A7A",
-    // color_code: "#0C9D5899",
-    // color_code: "#C5E2EE",
-    // color_code: "#ffc475",
-    // color_code: "#g",
-    // color_code: "#ffbfae",
-    // color_code: "#fffbf3",
-    // color_code: "#b190b0",
   ],
 };
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
+  title: "Experiência",
+  subtitle: "Mercado Financeiro",
   description:
-    "I've completed one internship. I've mostly done projects on my own and I am actively looking for internships. I love organizing workshops to share my knowledge with others.",
+    "Opero no mercado financeiro há cinco anos, montando novas estratégias para auferir lucro em curto prazo em derivativos financeiros, atualmente busco meios para automatizá-las",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work Experience",
+      title: "Mais Experiências Profissionais",
       experiences: [
         {
-          title: "Full Stack Developer (Intern)",
-          company: "Valora Infotech",
-          company_url: "https://valora-infotech.business.site/",
-          logo_path: "valora.jpg",
-          duration: "Oct 2020 - Mar 2021",
-          location: "Office",
-          description:
-            "I worked on the Dashboard project which helps users track their activities while using Walo Application. I also worked on Ocean Inventory Application and it's Admin panel Backend as well as on Ocean Inventory Admin Front-end using React and also worked on Walo Admin Backend.",
-          color: "#0071C5",
-        },
-        {
-          title: "Full Stack Developer (Freelancer)",
-          company: "NightOwls",
-          company_url: "http://nightowls.company/",
-          logo_path: "nightowls.jpg",
-          duration: "Sep 2020 - Oct 2020",
-          location: "Work From Home",
-          description:
-            "Created Front end of Yearn Financial Mutual Funds website. also degined simple web application for better user experience, designed DB Schemas as well.",
-          color: "#ee3c26",
+          title: "Técnico em química de petróleo pleno",
+          company: "PETROBRAS",
+          company_url: "https://petrobras.com.br/pt/",
+          logo_path: "logoBR.png",
+          duration: "set 2010 - oct 2016",
+          location: "",
+          description: [
+            "Experiência com amostragem, tratamento e limpeza de rochas para análises de petrofísica, MEV e DRX;",
+            "Confecção de lâminas petrográficas e controle de qualidade em lâminas confeccionadas por parceiros;",
+            "Responsável por elaborar, implantar, revisar, avaliar e validar procedimentos e normas técnicas operacionais;",
+            " Dar suporte técnico e analítico na resolução de problemas operacionais, realizando ensaios e formulações;",
+            "Otimizar procedimentos técnico-operacionais, definindo o melhor processo analítico, técnicas e sistemas a serem adotados;",
+            "Elaborar a orçamentação e as especificações técnicas para contratação de bens e serviços;",
+            "Inspecionar, conferir e controlar produtos químicos, equipamentos, materiais e reagentes químicos recebidos, emitir parecer técnico;",
+            "Atuar no processo para o atendimento das normas relativas a segurança, proteção ao meio ambiente, saúde, sistemas de gestão e responsabilidade social, a fim de assegurar a boa operação do negócio e o alcance das metas;",
+            "Desenvolvimento de novas metodologias e análises, novos processos e produtos.",
+          ],
+          color: "#00A59D",
         },
       ],
     },
-    {
-      title: "Volunteerships",
-      experiences: [
-        {
-          title: "Cross Winter of Code Mentor",
-          company: "CWOC",
-          company_url: "https://crosswoc.ieeedtu.in/",
-          logo_path: "cwoc.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-          color: "#4285F4",
-        },
-        {
-          title: "Campus Hustler",
-          company: "Skillenza",
-          company_url: "https://skillenza.com/",
-          logo_path: "skillenza.png",
-          duration: "Feb 2021 - Present",
-          location: "Work from Home",
-          description:
-            "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-          color: "#196acf",
-        },
-        {
-          title: "GitHub Student Developer",
-          company: "GitHub",
-          company_url: "https://github.com/",
-          logo_path: "github.png",
-          duration: "Nov 2019 - Present",
-          location: "Work from Home",
-          description:
-            "Contribute to Open Source Community and Open Source Project.",
-          color: "#040f26",
-        },
-        {
-          title: "Google Local Guide",
-          company: "Google Map",
-          company_url: "https://maps.google.com/localguides/",
-          logo_path: "localguide.png",
-          duration: "Sep 2018 - Present",
-          location: "Work From Home",
-          description:
-            "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-          color: "#D83B01",
-        },
-        {
-          title: "GDG Student Volunteer",
-          company: "Google Developer Groups",
-          company_url: "https://gdg.community.dev/",
-          logo_path: "gdg.png",
-          duration: "Feb 2021 - Present",
-          location: "Work From Home",
-          description:
-            "Google Developer Group Surat Student Volunteer and Member.",
-          color: "#D83B01",
-        },
-        {
-          title: "E. F. I. Student Volunteer",
-          company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-          company_url: "https://indiaenvironment.org/",
-          logo_path: "efi.png",
-          duration: "Apr 2017 - Present",
-          location: "Work From Home",
-          description:
-            "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-          color: "#5a900f",
-        },
-      ],
-    },
+    // {
+    //   title: "Volunteerships",
+    //   experiences: [
+    //     {
+    //       title: "Cross Winter of Code Mentor",
+    //       company: "CWOC",
+    //       company_url: "https://crosswoc.ieeedtu.in/",
+    //       logo_path: "cwoc.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
+    //       color: "#4285F4",
+    //     },
+    //     {
+    //       title: "Campus Hustler",
+    //       company: "Skillenza",
+    //       company_url: "https://skillenza.com/",
+    //       logo_path: "skillenza.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //         "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
+    //       color: "#196acf",
+    //     },
+    //     {
+    //       title: "GitHub Student Developer",
+    //       company: "GitHub",
+    //       company_url: "https://github.com/",
+    //       logo_path: "github.png",
+    //       duration: "Nov 2019 - Present",
+    //       location: "Work from Home",
+    //       description:
+    //         "Contribute to Open Source Community and Open Source Project.",
+    //       color: "#040f26",
+    //     },
+    //     {
+    //       title: "Google Local Guide",
+    //       company: "Google Map",
+    //       company_url: "https://maps.google.com/localguides/",
+    //       logo_path: "localguide.png",
+    //       duration: "Sep 2018 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "GDG Student Volunteer",
+    //       company: "Google Developer Groups",
+    //       company_url: "https://gdg.community.dev/",
+    //       logo_path: "gdg.png",
+    //       duration: "Feb 2021 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Google Developer Group Surat Student Volunteer and Member.",
+    //       color: "#D83B01",
+    //     },
+    //     {
+    //       title: "E. F. I. Student Volunteer",
+    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
+    //       company_url: "https://indiaenvironment.org/",
+    //       logo_path: "efi.png",
+    //       duration: "Apr 2017 - Present",
+    //       location: "Work From Home",
+    //       description:
+    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
+    //       color: "#5a900f",
+    //     },
+    //   ],
+    // },
   ],
 };
 
@@ -825,7 +796,20 @@ const references = [
   },
 ];
 
-const candles = ["candle.png", "candle2.png", "candleR.png", "candle2R.png"];
+const candles = [
+  "candle.png",
+  "candle2.png",
+  "candle3.png",
+  "candle4.png",
+  "candle5.png",
+  "candle6.png",
+  "candleR.png",
+  "candle2R.png",
+  "candle3R.png",
+  "candle4R.png",
+  "candle5R.png",
+  "candle6R.png",
+];
 
 export {
   settings,

@@ -7,10 +7,10 @@ function CertificationCard(props) {
   const certificate = props.certificate;
   const theme = props.theme;
   const styles = style({
-    boxShadow: `0px 2px 5px ${certificate.color_code}`,
-    border: `1px solid ${certificate.color_code}`,
+    boxShadow: `0px 2px 5px ${theme.accentBright}`,
+    border: `1px solid ${theme.accentBright}`,
     ":hover": {
-      boxShadow: `0 5px 15px ${certificate.color_code}`,
+      boxShadow: `0 5px 15px ${theme.accentBright}`,
     },
   });
 
@@ -26,7 +26,7 @@ function CertificationCard(props) {
             <div className="content-overlay"></div>
             <div
               className="cert-header"
-              style={{ backgroundColor: certificate.color_code }}
+              style={{ backgroundColor: theme.accentBright }}
             >
               <img
                 className="logo_img"
