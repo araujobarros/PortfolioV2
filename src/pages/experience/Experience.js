@@ -6,8 +6,6 @@ import "./Experience.css";
 import { experience } from "../../portfolio.js";
 import { Fade } from "react-reveal";
 import ExperienceImg from "./ExperienceImg";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard";
-import { Accordion, Panel } from "baseui/accordion";
 
 function Experience(props) {
   const theme = props.theme;

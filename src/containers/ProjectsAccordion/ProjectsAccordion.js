@@ -1,10 +1,10 @@
 import React from "react";
-import ExperienceCard from "../../components/experienceCard/ExperienceCard.js";
-import "./ExperienceAccordion.css";
+import "./ProjectsAccordion.css";
 import { Accordion, Panel } from "baseui/accordion";
 import { DarkTheme, LightTheme, ThemeProvider } from "baseui";
+import ProjectCarousel from "../../components/projectCarousel/ProjectCarousel.js";
 
-function ExperienceAccordion(props) {
+function ProjectsAccordion(props) {
   const theme = props.theme;
 
   return (
@@ -18,11 +18,10 @@ function ExperienceAccordion(props) {
                 title={section["title"]}
                 key={section["title"]}
               >
-                {section["experiences"].map((experience) => {
-                  return (
-                    <ExperienceCard experience={experience} theme={theme} />
-                  );
-                })}
+                <ProjectCarousel
+                  detailedProject={section["detailedProjects"]}
+                  theme={theme}
+                />
               </Panel>
             );
           })}
@@ -32,4 +31,4 @@ function ExperienceAccordion(props) {
   );
 }
 
-export default ExperienceAccordion;
+export default ProjectsAccordion;
