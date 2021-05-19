@@ -535,143 +535,28 @@ const projects = {
       title: "Projetos em desenvolvimento",
       detailedProjects: [
         {
-          id: "6",
-          name: "Automate Attendace",
-          url: "https://github.com/harikanani/Node_Python",
-          preview: "do_eat_preview.gif",
+          id: "0",
+          name: "Sra. Orem",
+          urlSite: "https://srorem-fc8aa.web.app/Cardapio",
+          urlRepo: "https://github.com/araujobarros/Sra.Orem",
+          preview: "sra_Orem_preview.gif",
           description:
-            "Automation of Online Attendance using node js and python",
+            "Sra.Orem é uma aplicação em desenvolvimento para exposição das guloseimas do negócio da minha esposa, futuramente pretendo expandir para que seja uma ferramente onde se possa fazer compras e até montar um presente por exemplo, como uma cesta de café da manhã. Enquanto não tenho as informações necessárias para concluir a aplicação, eu utilizo uma API do Mercado Livre com os produtos de uma loja de chocolates aleatória.",
           languages: [
+            {
+              name: "CSS3",
+              iconifyClass: "vscode-icons:file-type-css",
+            },
+            {
+              name: "React",
+              iconifyClass: "logos-react",
+            },
             {
               name: "JavaScript",
               iconifyClass: "logos-javascript",
             },
-            {
-              name: "Python",
-              iconifyClass: "logos-python",
-            },
           ],
         },
-        {
-          id: "7",
-          name: "Automate Discord Bot",
-          url: "https://github.com/harikanani/AutomateDiscordBot",
-          preview: "do_eat_preview.gif",
-          description:
-            "A Discord Bot to send Automatic messages to serer channel in regular time difference.",
-          languages: [
-            {
-              name: "Python",
-              iconifyClass: "logos-python",
-            },
-            {
-              name: "Python Selenium",
-              iconifyClass: "logos-selenium",
-            },
-            {
-              name: "Chromium Browser",
-              iconifyClass: "openmoji-chromium",
-            },
-          ],
-        },
-        // {
-        //   id: "8",
-        //   name: "Flask Blog",
-        //   url: "https://github.com/harikanani/flask_blog",
-        //   description: "A Simple Blog Web Application made using Flask Framework",
-        //   languages: [
-        //     {
-        //       name: "Python",
-        //       iconifyClass: "logos-python",
-        //     },
-        //     {
-        //       name: "Flask",
-        //       iconifyClass: "cib-flask",
-        //     },
-        //     {
-        //       name: "HTML5",
-        //       iconifyClass: "vscode-icons:file-type-html",
-        //     },
-        //     {
-        //       name: "CSS3",
-        //       iconifyClass: "vscode-icons:file-type-css",
-        //     },
-        //   ],
-        // },
-        // {
-        //   id: "9",
-        //   name: "Netflix top series",
-        //   url: "https://github.com/harikanani/netflix-top-series",
-        //   description: "List of Top Netflix Series which is deployed to vercel.",
-        //   languages: [
-        //     {
-        //       name: "JavaScript",
-        //       iconifyClass: "logos-javascript",
-        //     },
-        //     {
-        //       name: "ReactJS",
-        //       iconifyClass: "logos-react",
-        //     },
-        //     {
-        //       name: "HTML5",
-        //       iconifyClass: "logos-html-5",
-        //     },
-        //     {
-        //       name: "CSS3",
-        //       iconifyClass: "logos-css-3",
-        //     },
-        //   ],
-        // },
-        // {
-        //   id: "10",
-        //   name: "COVID-19 Tracker",
-        //   url: "https://github.com/harikanani/Covid19TrackerReact",
-        //   description:
-        //     "Simple Covid-19 Tracker made using React and deployed to Vercel.",
-        //   languages: [
-        //     {
-        //       name: "JavaScript",
-        //       iconifyClass: "logos-javascript",
-        //     },
-        //     {
-        //       name: "ReactJS",
-        //       iconifyClass: "logos-react",
-        //     },
-        //     {
-        //       name: "HTML5",
-        //       iconifyClass: "logos-html-5",
-        //     },
-        //     {
-        //       name: "CSS3",
-        //       iconifyClass: "logos-css-3",
-        //     },
-        //   ],
-        // },
-        // {
-        //   id: "11",
-        //   name: "Food Order Static Website",
-        //   url: "https://github.com/harikanani/food-order-website",
-        //   description:
-        //     "A simple static website related to food restaurants service. this is reasponsive as well.",
-        //   languages: [
-        //     {
-        //       name: "HTML5",
-        //       iconifyClass: "logos-html-5",
-        //     },
-        //     {
-        //       name: "CSS3",
-        //       iconifyClass: "logos-css-3",
-        //     },
-        //     {
-        //       name: "JavaScript",
-        //       iconifyClass: "logos-javascript",
-        //     },
-        //     {
-        //       name: "PHP",
-        //       iconifyClass: "logos-php",
-        //     },
-        //   ],
-        // },
       ],
     },
   ],
