@@ -1,3 +1,10 @@
+.footer-to-experience {
+  display: block;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+}
+
 .experience-main {
   width: 100%;
 }
