@@ -70,13 +70,6 @@ const skills = {
             color: "#F7DF1E",
           },
         },
-        // {
-        //   skillName: "PHP",
-        //   fontAwesomeClassname: "simple-icons:php",
-        //   style: {
-        //     color: "#7377AD",
-        //   },
-        // },
         {
           skillName: "ReactJS",
           fontAwesomeClassname: "simple-icons:react",
@@ -84,20 +77,6 @@ const skills = {
             color: "#61DAFB",
           },
         },
-        // {
-        //   skillName: "NodeJS",
-        //   fontAwesomeClassname: "simple-icons:node-dot-js",
-        //   style: {
-        //     color: "#339933",
-        //   },
-        // },
-        // {
-        //   skillName: "NPM",
-        //   fontAwesomeClassname: "simple-icons:npm",
-        //   style: {
-        //     color: "#CB3837",
-        //   },
-        // },
         {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
@@ -105,13 +84,6 @@ const skills = {
             color: "#439743",
           },
         },
-        // {
-        //   skillName: "GraphQL",
-        //   fontAwesomeClassname: "simple-icons:graphql",
-        //   style: {
-        //     color: "#DE33A6",
-        //   },
-        // },
         {
           skillName: "Android",
           fontAwesomeClassname: "simple-icons:android",
@@ -126,27 +98,6 @@ const skills = {
             color: "#f89820",
           },
         },
-        // {
-        //   skillName: "Flutter",
-        //   fontAwesomeClassname: "simple-icons:flutter",
-        //   style: {
-        //     color: "#02569B",
-        //   },
-        // },
-        // {
-        //   skillName: "Dart",
-        //   fontAwesomeClassname: "simple-icons:dart",
-        //   style: {
-        //     color: "#29B0EE",
-        //   },
-        // },
-        // {
-        //   skillName: "Visual Basic",
-        //   fontAwesomeClassname: "simple-icons:dot-net",
-        //   style: {
-        //     color: "#029FCE",
-        //   },
-        // },
         {
           skillName: "MySQL",
           fontAwesomeClassname: "simple-icons:mysql",
@@ -154,27 +105,6 @@ const skills = {
             color: "#4479A1",
           },
         },
-        // {
-        //   skillName: "jQuery",
-        //   fontAwesomeClassname: "simple-icons:jquery",
-        //   style: {
-        //     color: "#0865A6",
-        //   },
-        // },
-        // {
-        //   skillName: "Wordpress",
-        //   fontAwesomeClassname: "simple-icons:wordpress",
-        //   style: {
-        //     color: "#207297",
-        //   },
-        // },
-        // {
-        //   skillName: "Apache",
-        //   fontAwesomeClassname: "simple-icons:apache",
-        //   style: {
-        //     color: "#CA1A22",
-        //   },
-        // },
         {
           skillName: "Git",
           fontAwesomeClassname: "simple-icons:git",
@@ -182,96 +112,8 @@ const skills = {
             color: "#E94E32",
           },
         },
-        // {
-        //   skillName: "C",
-        //   fontAwesomeClassname: "simple-icons:c",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   skillName: "C++",
-        //   fontAwesomeClassname: "simple-icons:cplusplus",
-        //   style: {
-        //     color: "#E94E32",
-        //   },
-        // },
-        // {
-        //   skillName: "Python",
-        //   fontAwesomeClassname: "simple-icons:python",
-        //   style: {
-        //     color: "#3776AB",
-        //   },
-        // },
       ],
     },
-    // {
-    //   title: "Cloud Infra-Architecture",
-    //   fileName: "CloudInfraImg",
-    //   skills: [
-    //     " ✔️ Experience working on multiple cloud platforms",
-    //     " ✔️ Experience hosting and managing websites",
-    //     " ✔️ Experience with Continuous Integration",
-    //   ],
-    //   softwareSkills: [
-    //     {
-    //       skillName: "AWS",
-    //       fontAwesomeClassname: "simple-icons:amazonaws",
-    //       style: {
-    //         color: "#FF9900",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Netlify",
-    //       fontAwesomeClassname: "simple-icons:netlify",
-    //       style: {
-    //         color: "#38AFBB",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Heroku",
-    //       fontAwesomeClassname: "simple-icons:heroku",
-    //       style: {
-    //         color: "#6863A6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Firebase",
-    //       fontAwesomeClassname: "simple-icons:firebase",
-    //       style: {
-    //         color: "#FFCA28",
-    //       },
-    //     },
-    //     {
-    //       skillName: "PostgreSQL",
-    //       fontAwesomeClassname: "simple-icons:postgresql",
-    //       style: {
-    //         color: "#336791",
-    //       },
-    //     },
-    //     {
-    //       skillName: "MongoDB",
-    //       fontAwesomeClassname: "simple-icons:mongodb",
-    //       style: {
-    //         color: "#47A248",
-    //       },
-    //     },
-    //     {
-    //       skillName: "Docker",
-    //       fontAwesomeClassname: "simple-icons:docker",
-    //       style: {
-    //         color: "#1488C6",
-    //       },
-    //     },
-    //     {
-    //       skillName: "GitHub Actions",
-    //       fontAwesomeClassname: "simple-icons:githubactions",
-    //       style: {
-    //         color: "#5b77ef",
-    //       },
-    //     },
-    //   ],
-    // },
   ],
 };
 
@@ -379,77 +221,6 @@ const experience = {
         },
       ],
     },
-    // {
-    //   title: "Volunteerships",
-    //   experiences: [
-    //     {
-    //       title: "Cross Winter of Code Mentor",
-    //       company: "CWOC",
-    //       company_url: "https://crosswoc.ieeedtu.in/",
-    //       logo_path: "cwoc.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Mentorship responsibilities were to help students plan the project, review issues and pull requests, ensure smooth progress and help them out when they are stuck.",
-    //       color: "#4285F4",
-    //     },
-    //     {
-    //       title: "Campus Hustler",
-    //       company: "Skillenza",
-    //       company_url: "https://skillenza.com/",
-    //       logo_path: "skillenza.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work from Home",
-    //       description:
-    //         "Spread Awareness of new Technologies and new Opportunities to Students and Grow Skillenza Community.",
-    //       color: "#196acf",
-    //     },
-    //     {
-    //       title: "GitHub Student Developer",
-    //       company: "GitHub",
-    //       company_url: "https://github.com/",
-    //       logo_path: "github.png",
-    //       duration: "Nov 2019 - Present",
-    //       location: "Work from Home",
-    //       description:
-    //         "Contribute to Open Source Community and Open Source Project.",
-    //       color: "#040f26",
-    //     },
-    //     {
-    //       title: "Google Local Guide",
-    //       company: "Google Map",
-    //       company_url: "https://maps.google.com/localguides/",
-    //       logo_path: "localguide.png",
-    //       duration: "Sep 2018 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Day-to-day responsibilities of helping local businesses to spread their business to the world. Helping users by writing reviews about different locations and spaces such as shops, malls, etc.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "GDG Student Volunteer",
-    //       company: "Google Developer Groups",
-    //       company_url: "https://gdg.community.dev/",
-    //       logo_path: "gdg.png",
-    //       duration: "Feb 2021 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Google Developer Group Surat Student Volunteer and Member.",
-    //       color: "#D83B01",
-    //     },
-    //     {
-    //       title: "E. F. I. Student Volunteer",
-    //       company: "ENVIRONMENTALIST FOUNDATION OF INDIA",
-    //       company_url: "https://indiaenvironment.org/",
-    //       logo_path: "efi.png",
-    //       duration: "Apr 2017 - Present",
-    //       location: "Work From Home",
-    //       description:
-    //         "Take time out over weekends to join a gang of nation builders, nature enthusiasts to conserve what is left.",
-    //       color: "#5a900f",
-    //     },
-    //   ],
-    // },
   ],
 };
 
