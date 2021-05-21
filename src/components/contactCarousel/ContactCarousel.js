@@ -1,8 +1,7 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import makeCarousel from "react-reveal/makeCarousel";
 import Slide from "react-reveal/Slide";
-import styled, { css, StyleSheetManager } from "styled-components";
-import ProjectCard from "../ProjectCard/ProjectCard";
+import styled, { css } from "styled-components";
 import "./ContactCarousel.css";
 import { contactPageData } from "../../portfolio.js";
 import Flip from "react-reveal/Flip";
