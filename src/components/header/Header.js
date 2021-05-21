@@ -75,85 +75,85 @@ function Header(props) {
 
   return (
     <div className={`header-container ${backGroundHeader}`}>
-      {/* <Fade top duration={1000} distance="20px"> */}
-      <header className="header">
-        <NavLink to={link} tag={Link} className="logo">
-          <span style={{ color: theme.text }}></span>
-          <span className="logo-name a">{greeting.logo_name_a}</span>
-          <span className="logo-name c">{greeting.logo_name_c}</span>
-          <span style={{ color: theme.text }}></span>
-        </NavLink>
-        <input
-          className="menu-btn"
-          type="checkbox"
-          id="menu-btn"
-          onClick={() => setBackGroundHeader("not-transparent")}
-        />
-        <label className="menu-icon" htmlFor="menu-btn">
-          <span className="navicon"></span>
-        </label>
-        <ul className="menu">
-          <li>
-            <NavLink
-              className="homei"
-              to="/home"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.secondaryText }}
-            >
-              Home
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="ec"
-              to="/education"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.secondaryText }}
-            >
-              Formação
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="xp"
-              to="/experience"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.secondaryText }}
-            >
-              Experiência
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="projects"
-              to="/projects"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.secondaryText }}
-            >
-              Projetos
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              className="cr"
-              to="/contact"
-              tag={Link}
-              activeStyle={{ fontWeight: "bold" }}
-              style={{ borderRadius: 5, color: theme.secondaryText }}
-            >
-              Contato
-            </NavLink>
-          </li>
-          <button {...styles} onClick={changeTheme}>
-            {icon}
-          </button>
-        </ul>
-      </header>
-      {/* </Fade> */}
+      <Fade top duration={1000} distance="20px">
+        <header className="header">
+          <NavLink to={link} tag={Link} className="logo">
+            <span style={{ color: theme.text }}></span>
+            <span className="logo-name a">{greeting.logo_name_a}</span>
+            <span className="logo-name c">{greeting.logo_name_c}</span>
+            <span style={{ color: theme.text }}></span>
+          </NavLink>
+          <input
+            className="menu-btn"
+            type="checkbox"
+            id="menu-btn"
+            onClick={() => setBackGroundHeader("not-transparent")}
+          />
+          <label className="menu-icon" htmlFor="menu-btn">
+            <span className="navicon"></span>
+          </label>
+          <ul className="menu">
+            <li>
+              <NavLink
+                className="homei"
+                to="/home"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.secondaryText }}
+              >
+                Home
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="ec"
+                to="/education"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.secondaryText }}
+              >
+                Formação
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="xp"
+                to="/experience"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.secondaryText }}
+              >
+                Experiência
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="projects"
+                to="/projects"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.secondaryText }}
+              >
+                Projetos
+              </NavLink>
+            </li>
+            <li>
+              <NavLink
+                className="cr"
+                to="/contact"
+                tag={Link}
+                activeStyle={{ fontWeight: "bold" }}
+                style={{ borderRadius: 5, color: theme.secondaryText }}
+              >
+                Contato
+              </NavLink>
+            </li>
+            <button {...styles} onClick={changeTheme}>
+              {icon}
+            </button>
+          </ul>
+        </header>
+      </Fade>
     </div>
   );
 }
