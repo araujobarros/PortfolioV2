@@ -34,11 +34,6 @@ function CertificationCard(props) {
                 alt={certificate.alt_name}
               />
             </div>
-            {/* <div className="content-details fadeIn-top">
-									<h3 className="content-title" style={{ color: theme.body }}>
-										Certificate
-									</h3>
-								</div> */}
           </a>
         </div>
         <div className="cert-body">
