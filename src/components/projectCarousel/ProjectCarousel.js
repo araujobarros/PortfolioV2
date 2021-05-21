@@ -1,7 +1,7 @@
 import React from "react";
 import makeCarousel from "react-reveal/makeCarousel";
 import Slide from "react-reveal/Slide";
-import styled, { css } from "styled-components";
+import styled from "styled-components";
 import ProjectCard from "../ProjectCard/ProjectCard";
 import "./ProjectCarousel.css";
 
