@@ -59,7 +59,7 @@ function ProjectCarousel(props) {
   const Carousel = makeCarousel(CarouselUI);
 
   return (
-    <Carousel defaultWait={60000}>
+    <Carousel defaultWait={60000} swipe={true}>
       {props.detailedProject.map((project) => {
         return (
           <Slide right>

@@ -21,6 +21,7 @@ function ProjectsAccordion(props) {
                 <ProjectCarousel
                   detailedProject={section["detailedProjects"]}
                   theme={theme}
+                  title="project"
                 />
               </Panel>
             );

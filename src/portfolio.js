@@ -2,9 +2,9 @@
 
 // Website related settings
 const settings = {
-  isSplash: true, // Change this to true if you want to use the splash screen.
+  isSplash: false, // Change this to true if you want to use the splash screen.
   useCustomCursor: false, // Change this to false if you want the good'ol cursor
-  googleTrackingID: "UA-174238252-2",
+  // googleTrackingID: "UA-174238252-2",
 };
 
 //Home Page
@@ -19,7 +19,7 @@ const greeting = {
   subTitle:
     "Estudante de Desenvolvimento Full Stack, Entusiasta do mercado financeiro  🗠.",
   resumeLink:
-    "https://docs.google.com/document/d/1A_jWRG74Rst427tg1izLa6vRXclS9_9F856jWJPJlDY/edit?usp=sharing",
+    "https://drive.google.com/file/d/1WKpasCW2kWhCLXIzPeXHzm51L_mvswha/view?usp=sharing",
   mail: "araujo.barros@matematica.ufrj.br",
 };
 
@@ -461,10 +461,10 @@ const projectsHeader = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
-    profile_image_path: "harikrushn.jpg",
+    title: "Contato",
+    profile_image_path: ["Edson.jpg", "familia.jpg", "piscina-Helena.jpg"],
     description:
-      "You can contact me at the places mentioned below. I will try to get back to you as fast as I can. ",
+      "Abaixo encontram-se alguns meios para entrar em contato comigo e meu Currículo.",
   },
   blogSection: {
     title: "Blogs",
