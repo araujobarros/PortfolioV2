@@ -46,7 +46,6 @@
 
 .greeting-main {
   display: flex;
-  /* text-align: center; */
 }
 
 .greeting-main > * {
@@ -89,7 +88,6 @@
   cursor: pointer;
 }
 
-/* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
     font-size: 50px;
